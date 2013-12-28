@@ -851,7 +851,7 @@
   },
   {
     "class": "quick_panel_label",
-    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}, {"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
     "fg": [0, 0, 0, 180],
     "match_fg": [0, 0, 0, 200],
     "selected_fg": [0, 0, 0],
@@ -866,7 +866,7 @@
   },
   {
     "class": "quick_panel_path_label",
-    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}, {"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
     "fg": [0, 0, 0],
     "match_fg": [0, 0, 0, 200],
     "selected_fg": [0, 0, 0],
@@ -879,7 +879,7 @@
   },
   {
     "class": "quick_panel_score_label",
-    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}, {"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
     "fg": [0, 0, 0, 200],
     "selected_fg": [0, 0, 0, 200]
   },
