@@ -432,13 +432,13 @@
     "layer0.texture": "",
     "layer0.tint": [244,211,89],
     "layer0.inner_margin": [1, 1],
-    "layer0.opacity": 0.95,
+    "layer0.opacity": 1,
     "content_margin": [10, 10]
   },
   // Tooltip content
   {
     "class": "tool_tip_label_control",
-    "color": [255, 255, 255, 200]
+    "color": [0, 0, 0, 200]
   },
 
 //
@@ -850,6 +850,14 @@
     "selected_match_fg": [255, 255, 255, 200]
   },
   {
+    "class": "quick_panel_label",
+    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}, {"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+    "fg": [0, 0, 0, 180],
+    "match_fg": [0, 0, 0, 200],
+    "selected_fg": [0, 0, 0],
+    "selected_match_fg": [0, 0, 0, 200]
+  },
+  {
     "class": "quick_panel_path_label",
     "fg": [180, 180, 180],
     "match_fg": [255, 255, 255, 200],
@@ -857,9 +865,23 @@
     "selected_match_fg": [255, 255, 255, 200]
   },
   {
+    "class": "quick_panel_path_label",
+    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}, {"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+    "fg": [0, 0, 0],
+    "match_fg": [0, 0, 0, 200],
+    "selected_fg": [0, 0, 0],
+    "selected_match_fg": [0, 0, 0, 200]
+  },
+  {
     "class": "quick_panel_score_label",
     "fg": [255, 255, 255, 200],
     "selected_fg": [255, 255, 255, 200]
+  },
+  {
+    "class": "quick_panel_score_label",
+    "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}, {"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+    "fg": [0, 0, 0, 200],
+    "selected_fg": [0, 0, 0, 200]
   },
 
 //
@@ -904,6 +926,18 @@
     "match_fg": [255, 255, 255, 200],
     "selected_fg": [255, 255, 255],
     "selected_match_fg": [255, 255, 255, 200]
+  },
+  {
+    "class": "auto_complete_label",
+    "parents": [{"class": "table_row", "attributes": ["selected"]}],
+    "bg": [244,211,89],
+    "selected_bg": [244,211,89],
+
+    // text
+    "fg": [0, 0, 0],
+    "match_fg": [0, 0, 0, 200],
+    "selected_fg": [0, 0, 0],
+    "selected_match_fg": [0, 0, 0, 200]
   },
   {
     "class": "table_row",
